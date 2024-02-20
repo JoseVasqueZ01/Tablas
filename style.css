@@ -1,0 +1,84 @@
+body{
+    background-image:url(Fondo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilos para la barra de menú */
+.navbar {
+    display: flex; 
+      justify-content: center; 
+      background-color: #262f63ad;
+      border-radius: 20px;
+      
+  }
+
+  /* Estilos para los enlaces de la barra de menú */
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding:  14px  16px;
+    text-decoration: none;
+  }
+
+  /* Cambia el color de fondo de los enlaces de la barra de menú al pasar el cursor */
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+h1{
+    background-color: cornflowerblue;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+/* Estilos CSS para la tabla */
+
+table {
+    width:  70%;
+    border-collapse:collapse;
+    margin: auto;
+  }
+  th, td {
+    border:  2px solid #140101;
+    padding:  8px;
+    text-align: left;
+  }
+  th {
+    background-color: #e69494;
+    font-weight: bold;
+    text-align: center;
+  }
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+ /* Estilos para el footer */
+ footer {
+    background-color: #262f63ad;
+    color: #f2f2f2;
+    text-align: center;
+    padding:  10px;
+    border-radius: 20px;
+  }
+
+  /* Estilos para los enlaces dentro del footer */
+  footer a {
+    color: #f2f2f2;
+    text-decoration: none;
+  }
+
+  /* Cambia el color de fondo de los enlaces al pasar el cursor */
+  footer a:hover {
+    color: #ddd;
+  }
+

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Diferencias entre Git Local y Git Remoto</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="Icono.ico" type="image/x-icon">
+</head>
+<body>
+
+    <!-- Cabecera -->
+    <div class="navbar">
+        <a href="#home">Inicio</a>
+        <a href="#news">Noticias</a>
+        <a href="#contact">Contacto</a>
+        <a href="#about">Acerca de</a>
+      </div>
+
+  <h1>Diferencias entre Git Local y Git Remoto</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Característica</th>
+        <th>Git Local</th>
+        <th>Git Remoto</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Operación</td>
+        <td>Se ejecuta en la máquina del usuario, sin necesidad de conexión a internet</td>
+        <td>Opera en un servidor, generalmente en la nube, y requiere conexión a internet</td>
+      </tr>
+      <tr>
+        <td>Colaboración</td>
+        <td>Ideal para uso individual o pequeños equipos</td>
+        <td>Facilita la colaboración entre múltiples desarrolladores, permitiendo compartir y actualizar proyectos fácilmente</td>
+      </tr>
+      <tr>
+        <td>Acceso</td>
+        <td>Los repositorios son privados por defecto en el entorno local</td>
+        <td>Los repositorios pueden ser públicos o privados, y se pueden compartir en la web a través de plataformas como GitHub</td>
+      </tr>
+      <tr>
+        <td>Gestión de ramas</td>
+        <td>Los usuarios pueden crear y fusionar ramas localmente</td>
+        <td>Permite la creación de ramas y la fusión de cambios a través de la plataforma web</td>
+      </tr>
+      <tr>
+        <td>Seguridad</td>
+        <td>La seguridad depende del entorno local y de las políticas de seguridad implementadas</td>
+        <td>La seguridad es manejada por la plataforma web y puede incluir características como autenticación y permisos de acceso</td>
+      </tr>
+    </tbody>
+  </table>
+  <br>
+  <br>
+  <h1>Comandos basicos de Git remoto y Git local</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Categoría</th>
+        <th>Comando</th>
+        <th>Descripción</th>
+        <th>Ejemplo de uso</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Comandos de Git Local -->
+      <tr>
+        <td rowspan="6">Git Local</td>
+        <td>git init</td>
+        <td>Inicializa un nuevo repositorio Git en el directorio actual</td>
+        <td><code>git init</code></td>
+      </tr>
+      <tr>
+        <td>git add</td>
+        <td>Agrega cambios en el directorio de trabajo al área de preparación</td>
+        <td><code>git add archivo.txt</code></td>
+      </tr>
+      <tr>
+        <td>git commit</td>
+        <td>Guarda los cambios del área de preparación en el repositorio</td>
+        <td><code>git commit -m "Mensaje descriptivo"</code></td>
+      </tr>
+      <tr>
+        <td>git status</td>
+        <td>Muestra el estado del repositorio, incluyendo cambios que se han añadido al área de preparación</td>
+        <td><code>git status</code></td>
+      </tr>
+      <tr>
+        <td>git log</td>
+        <td>Muestra el historial de confirmaciones</td>
+        <td><code>git log</code></td>
+      </tr>
+      <tr>
+        <td>git diff</td>
+        <td>Muestra las diferencias entre los cambios hechos y los que están en el repositorio</td>
+        <td><code>git diff</code></td>
+      </tr>
+      
+      <!-- Comandos de Git Remoto -->
+      <tr>
+        <td rowspan="6">Git Remoto</td>
+        <td>git clone</td>
+        <td>Clona un repositorio remoto en un directorio local</td>
+        <td><code>git clone https://github.com/usuario/repositorio.git</code></td>
+      </tr>
+      <tr>
+        <td>git fetch</td>
+        <td>Obtiene los cambios del repositorio remoto</td>
+        <td><code>git fetch origin</code></td>
+      </tr>
+      <tr>
+        <td>git pull</td>
+        <td>Obtiene cambios del repositorio remoto y los fusiona con el repositorio local</td>
+        <td><code>git pull origin master</code></td>
+      </tr>
+      <tr>
+        <td>git push</td>
+        <td>Envía los cambios del repositorio local al repositorio remoto</td>
+        <td><code>git push origin master</code></td>
+      </tr>
+      <tr>
+        <td>git remote</td>
+        <td>Administra los repositorios remotos</td>
+        <td><code>git remote add origin https://github.com/usuario/repositorio.git</code></td>
+      </tr>
+      <tr>
+        <td>git remote -v</td>
+        <td>Muestra los repositorios remotos asociados con el repositorio local</td>
+        <td><code>git remote -v</code></td>
+      </tr>
+    </tbody>
+  </table>
+  <script src="script.js"></script>
+</body>
+<br>
+<br>
+<!-- Footer -->
+<footer>
+    <p>&copy;  2024 Jose Vasquez. Todos los derechos reservados.</p>
+    <p>contacto@CovinWare.com</p>
+  </footer>
+</html>
